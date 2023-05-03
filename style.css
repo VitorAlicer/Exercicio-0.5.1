@@ -1,0 +1,72 @@
+body {
+     background-color: rgb(26, 25, 25);
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+ul {
+    text-align: center;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.Pendentes {
+    background-color: #8FD14F;
+    color: black;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+.Concluidas {
+    background-color: #0CA789;
+    color: black;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Excluidas {
+    background-color: #EB4045;
+    color: black;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.excluidas1 {
+    background-color: #EB4045;
+    border-radius: 30px;
+    
+}
+
+.concluidas1 {
+    background-color: #0CA789;
+    border-radius: 30px;
+}
+
+.pendentes1 {
+    background-color: #8FD14F;
+    border-radius: 30px;
+}
+
+.pendentes1:nth-child(even) {
+    background-color: gray;
+}
+
+div {
+    width: 500px;
+    border-radius: 100px;
+    text-decoration: none;
+    margin: 0 auto;
+
+}
+
+div:hover {
+    transform: scale(1.1);
+}
