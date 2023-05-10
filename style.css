@@ -42,17 +42,20 @@ ul {
 .excluidas1 {
     background-color: #EB4045;
     border-radius: 30px;
+    padding: 8px;
     
 }
 
 .concluidas1 {
     background-color: #0CA789;
     border-radius: 30px;
+    padding: 8px;
 }
 
 .pendentes1 {
     background-color: #8FD14F;
     border-radius: 30px;
+    padding: 8px;
 }
 
 .pendentes1:nth-child(even) {
