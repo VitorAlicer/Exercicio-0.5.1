@@ -1,11 +1,18 @@
 body {
-     background-color: rgb(26, 25, 25);
+     background-color: rgb(0, 0, 0);
+     border: 2px solid grey;
+     padding: 5px;
+     border-radius: 5px;
+     margin: 80px;
 }
 
 h1 {
     text-align: center;
-    padding: 50px;
+    padding: 0px;
+    padding-top: 50px;
     color: white;
+    margin-top: 20px;
+    margin: 0px;
 }
 
 ul {
@@ -15,7 +22,7 @@ ul {
 }
 
 .Pendentes {
-    background-color: #8FD14F;
+    background-color: var(--cor-Pendentes);
     color: black;
     margin: 10px;
     border-radius: 5px;
@@ -24,7 +31,7 @@ ul {
 }
 
 .Concluidas {
-    background-color: #0CA789;
+    background-color: var(--cor-Concluidas);
     color: black;
     margin: 10px;
     border-radius: 5px;
@@ -32,7 +39,7 @@ ul {
 }
 
 .Excluidas {
-    background-color: #EB4045;
+    background-color: var(--cor-Excluidas);
     color: black;
     margin: 10px;
     border-radius: 5px;
@@ -40,20 +47,20 @@ ul {
 }
 
 .excluidas1 {
-    background-color: #EB4045;
+    background-color: var(--cor-excluidas1);
     border-radius: 30px;
     padding: 8px;
     
 }
 
 .concluidas1 {
-    background-color: #0CA789;
+    background-color: var(--cor-concluidas1);
     border-radius: 30px;
     padding: 8px;
 }
 
 .pendentes1 {
-    background-color: #8FD14F;
+    background-color: var(--cor-pendentes1);
     border-radius: 30px;
     padding: 8px;
 }
@@ -63,13 +70,35 @@ ul {
 }
 
 div {
-    width: 500px;
+    width: 350px;
     border-radius: 100px;
     text-decoration: none;
     margin: 0 auto;
 
 }
 
-div:hover {
+.pendentes1:hover {
     transform: scale(1.1);
+}
+
+.concluidas1:hover {
+    transform: scale(1.1);
+}
+
+.excluidas1:hover {
+    transform: scale(1.1);
+}
+
+:root {
+    --cor-Pendentes: #8FD14F;
+    --cor-pendentes1: #8FD14F;
+    --cor-Concluidas: #0CA789;
+    --cor-concluidas1: #0CA789;
+    --cor-Excluidas: #EB4045;
+    --cor-excluidas1:  #EB4045;
+}
+
+hr {
+    margin-top: 0px;
+    margin: 20px;
 }
